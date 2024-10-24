@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <title>O Caminho Da Aventura</title>
+</head>
+<body>
+  <main>
+    <div class="passo ativo" id="passo-0">
+        <img src="cenario-passo0.png" alt=""
+        <p> Paola recebe uma carta misteriosa que o convida a explorar uma floresta mágica.</p>
+    <button class="btn-proximo" data-proximo="1">Avançar para floresta</button>
+    <button class="btn-proximo" data-proximo="2">Voltar para Casa</button>
+</div>
+<div class="passo" id="passo-1">
+    <p>Paola chegou a floresta, e encontrou 2 trilhas.</p>
+<button class="btn-proximo" data-proximo="3">Trilha da Luz.</button>
+<button class="btn-proximo" data-proximo="4">Trilha da sombra.</button>
+</div>
+<div class="passo" id="passo-3">
+<p> Paola precisa escolher uma trilha.</p>
+<button class="btn-proximo" data-proximo="3">Trilha da sombra: Paola encontra uma grande pedra no caminho.</button>
+<button class="btn-proximo" data-proximo="4">Trilha da luz: Paola encontrou animais amigaveis.</button>
+</div>
+<div class="passo" id="passo-4">
+    <p> Paola percebe que os animais precisam de ajuda. </p>
+    <button class="btn-proximo" data-proximo="5">Paola ajudou seus novos amigos e segiu em frente..</button>
+    <button class="btn-proximo" data-proximo="6">Paola decidiu nao ajudar e voltar para casa.</button>
+    </div>
+    <div class="passo" id="passo-5">
+        <p> Paola tem q decidir em seguir sua aventura ou seguir em sua volta pra casa. </p>
+        <button class="btn-proximo" data-proximo="7">Paola chegou ao final dessa aventura e encontrou um grande tesouro.</button>
+ </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
